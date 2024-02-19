@@ -1,0 +1,149 @@
+* {
+  background: rgb(32, 30, 30);
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  width: auto;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 0 auto;
+  animation: strechy-text infinite ;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header-levels {
+  display: none;
+}
+
+.header h2 { 
+  font-size: 2.6rem;
+}
+
+.inputs {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.inputs input[type="text"] {
+  text-align: center;
+  padding: 1.5rem 2rem;
+  width: fit-content;
+
+  font-size: 40px;
+
+  border: 2px solid rgb(98, 95, 95);
+  outline: none;
+  box-shadow: -0.1rem 0 rem 1rem #fff;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.inputs input[type="button"] {
+  background-color: transparent;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  padding: 2rem 4rem;
+  width: fit-content;
+
+  border: 1px solid rgb(98, 95, 95);
+  font-size: 20px;
+  border-radius: 5px;
+
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.inputs input[type="button"]:hover {
+  box-shadow: rgb(80, 219, 58);
+  box-shadow: 0 0 0 5px rgb(80, 219, 58);
+  color: rgb(80, 219, 58);
+}
+
+.inputs input[type="button"]:active {
+  transform: translateY(30px);
+}
+
+.main {
+  font-size: 25px;
+}
+
+.levels {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.levels button {
+  margin-right: 0.8rem;
+  margin-left: 0.8rem;
+  padding: 1rem 1.5rem;
+
+  font-size: 1.2rem;
+  border: 2px solid #000000;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.levels button:focus {
+  background-color: rgb(80, 219, 58);
+  color: rgb(0, 0, 0);
+}
+
+
+/* .hearts {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin-left: 4rem;
+  font-size: 3rem;
+}
+.fa-heart {
+  margin-top: 10px;
+  color: #b32424;
+} */
+
+@media screen and (max-width: 414px) {
+  .name{
+    font-size: 1rem;
+  }
+
+  .main {
+    font-size: 10px;
+  }
+
+  .inputs input[type="text"] {
+    padding: 0.5rem 1.5rem;
+    font-size: 20px;
+  }
+
+  .inputs input[type="button"] {
+    padding: 1rem 1.5rem;
+  }
+
+  .inputs input[type="button"]:active {
+    transform: translateY(10px);
+  }
+
+  .header h1:first-child {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 0 auto;
+  }
+
+  .header h2 {
+    font-size: 1.5rem;
+  }
+  
+  .levels button {
+    padding: 0.5rem 1rem;
+  }
+}
