@@ -110,40 +110,62 @@
   color: #b32424;
 } */
 
-@media screen and (max-width: 414px) {
-  .name{
-    font-size: 1rem;
+@media screen and (max-width: 575px) {
+  .inputs input[type="text"] {
+    width: 27rem;
   }
+}
 
-  .main {
-    font-size: 10px;
+@media screen and (max-width: 536px) {
+  .inputs input[type="text"] {
+    width: 25rem;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .inputs input[type="text"] {
+    width: 20rem;
+  }
+  .header h2 {
+    position: relative;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .name {
+    font-size: 1.2rem;
   }
 
   .inputs input[type="text"] {
-    padding: 0.5rem 1.5rem;
+    padding: 1rem 1rem;
     font-size: 20px;
   }
 
   .inputs input[type="button"] {
-    padding: 1rem 1.5rem;
+    padding: 1.5rem 2rem;
   }
 
   .inputs input[type="button"]:active {
     transform: translateY(10px);
   }
 
-  .header h1:first-child {
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    width: 0 auto;
-  }
-
   .header h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   
+  .header h1 {
+    margin-top: -0.3rem;
+  }
+
   .levels button {
-    padding: 0.5rem 1rem;
+    padding: 1rem 1.2rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .inputs input[type="text"] {
+    padding: 1rem 3px;
+    font-size: 20px;
   }
 }
