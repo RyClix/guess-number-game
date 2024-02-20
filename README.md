@@ -1,3 +1,3 @@
 # guess-number-game
 # In this game you have unlimited lives!
-## Want ot conact me ? Insta -> ryclixx
+## Find the bug ? Write me on Insta -> ryclixx
