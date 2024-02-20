@@ -20,7 +20,6 @@ submit.on('click',guess_number)
 
 function guess_number () {
   if(randomNumber !== 0){
-    console.log(randomNumber);
     const user_guess = document.getElementById("user_input").value;
   
     if (user_guess == "") {
