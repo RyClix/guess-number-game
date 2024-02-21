@@ -69,10 +69,6 @@
   color: rgb(80, 219, 58);
 }
 
-.inputs input[type="button"]:active {
-  transform: translateY(30px);
-}
-
 .main {
   font-size: 25px;
 }
@@ -133,6 +129,10 @@
   .inputs input[type="text"] {
     padding: 1rem 3px;
     font-size: 20px;
+  }
+
+  .levels button {
+    padding: 1rem;
   }
 
   .header h2 {
