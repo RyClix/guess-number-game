@@ -1,5 +1,4 @@
 //Generating the random number
-
 let randomNumber = 0;
 const letters = /^[A-Za-z]+$/;
 const lvl_buttons = $('.lvl_selector');
@@ -51,25 +50,25 @@ $.notify.addStyle("notify", {
   classes: {
     info: {
       "margin-right": "3rem",
-      padding: "20px",
-      width: "200px",
+      "padding": "20px",
+      "width": "200px",
       "border-radius": "5px",
       "text-align": "center",
 
-      border: "4px solid rgb(121, 17, 8)",
-      background: "transparent",
+      "border": "4px solid rgb(121, 17, 8)",
+      "background": "transparent",
       "font-size": "23px",
     },
     success: {
       "text-align": "center",
       "margin-right": "2rem",
-      padding: "20px",
-      width: "200px",
+      "padding": "20px",
+      "width": "200px",
 
       "border-radius": "5px",
-      background: "transparent",
+      "background": "transparent",
       "font-size": "23px",
-      border: "4px solid rgb(135, 217, 52)",
+      "border": "4px solid rgb(135, 217, 52)",
     },
   },
 });
