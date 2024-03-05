@@ -6,7 +6,7 @@ const submit = $('#user_submit');
 
 $(`.header-levels[type=level_1]`).show();
 
-lvl_buttons.on('click',modeSelector)
+lvl_buttons.on('click',modeSelector);
 
 function modeSelector () {
   let id = $(this).attr('id')
