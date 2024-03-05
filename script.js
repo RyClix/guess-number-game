@@ -4,7 +4,9 @@ const letters = /^[A-Za-z]+$/;
 const lvl_buttons = $('.lvl_selector');
 const submit = $('#user_submit');
 
-lvl_buttons.on('click',modeSelector,)
+$(`.header-levels[type=level_1]`).show();
+
+lvl_buttons.on('click',modeSelector)
 
 function modeSelector () {
   let id = $(this).attr('id')
