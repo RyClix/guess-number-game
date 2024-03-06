@@ -93,9 +93,28 @@
   color: rgb(0, 0, 0);
 }
 
+.devs {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.devs h2,h3 {
+  position: relative;
+  text-align: center;
+  padding: 2rem;
+
+  color: #212121;
+  border: 2px solid rgb(149, 184, 192);
+  border-radius: 15px;
+  background: rgb(149, 184, 192);
+}
+
 @media screen and (max-width: 575px) {
   .inputs input[type="text"] {
     width: 27rem;
+  }
+  .devs {
+    margin: 0 auto;
   }
 }
 
